@@ -1,0 +1,54 @@
+.button {
+    display: block;
+    margin: 20px 0;
+}
+
+.square {
+    width: 70px;
+    height: 70px;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+.black {
+    background-color: peru;
+}
+
+.table {
+    margin-left: 100px;
+    border-spacing: 0;
+    outline: 1px solid black;
+    display: inline-block;
+    text-align: center;
+}
+
+.empty {
+    background-color: white;
+}
+
+.chessLetters,
+.chessNumbers {
+    background-color: lightgray;
+}
+
+.chessNumbers {
+    font-size: 36px;
+}
+
+.chessLetters {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.fas.fa-chess-pawn,
+.fas.fa-chess-rook,
+.fas.fa-chess-knight,
+.fas.fa-chess-bishop,
+.fas.fa-chess-king,
+.fas.fa-chess-queen {
+    font-size: 50px;
+}
+
+.white_figure {
+    color: burlywood;
+}
