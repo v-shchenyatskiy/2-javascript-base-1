@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/9bc372a458.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="cart">
+        <h2 class="cart__h2">Корзина товаров</h2>
+        <div class="cartWrap">
+            <table class="cart__table">
+                <tbody class="cart__tbody">
+                    <tr>
+                        <td class="cart__table_1row">ID:</td>
+                        <td class="cart__table_1row">Фото:</td>
+                        <td class="cart__table_1row">Товар:</td>
+                        <td class="cart__table_1row">Цена, $:</td>
+                        <td class="cart__table_1row">Кол-во:</td>
+                        <td class="cart__table_1row">Сумма, $:</td>
+                        <td class="cart__table_1row"></td>
+                    </tr>
+                    <tr class="cart__endTR">
+                        <td class="cart__table_endrow" colspan="5">ИТОГО:</td>
+                        <td class="cart__table_endrow cart__totalSum">0</td>
+                        <td class="cart__table_endrow"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="productWrap">
+        <div class="product">
+            <p><b>ID товара: </b><span class="id">1</span></p>
+            <h2 class="product__name">морковь</h2>
+            <span class="img"><i class="fas fa-carrot"></i></span>
+            <p><b>Цена товара: </b><span class="price">10</span><span>$</span></p>
+            <span class="product_quan"><b>Кол-во: </b><input class="product__input" type="number" value="1" step="1" min="1"></span>
+            <button>Купить</button>
+        </div>
+        <div class="product">
+            <p><b>ID товара: </b><span class="id">2</span></p>
+            <h2 class="product__name">яблоко</h2>
+            <span class="img"><i class="fas fa-apple-alt"></i></span>
+            <p><b>Цена товара: </b><span class="price">20</span><span>$</span></p>
+            <span class="product_quan"><b>Кол-во: </b><input class="product__input" type="number" value="1" step="1" min="1"></span>
+            <button>Купить</button>
+        </div>
+        <div class="product">
+            <p><b>ID товара: </b><span class="id">3</span></p>
+            <h2 class="product__name">лимон</h2>
+            <span class="img"><i class="fas fa-lemon"></i></span>
+            <p><b>Цена товара: </b><span class="price">30</span><span>$</span></p>
+            <span class="product_quan"><b>Кол-во: </b><input class="product__input" type="number" value="1" step="1" min="1"></span>
+            <button>Купить</button>
+        </div>
+    </div>
+
+
+    <script src="script_1_new.js"></script>
+</body>
+</html>
